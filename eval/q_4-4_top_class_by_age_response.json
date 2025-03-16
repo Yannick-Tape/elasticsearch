@@ -1,0 +1,94 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "age_buckets": {
+      "buckets": [
+        {
+          "key": 0.0,
+          "doc_count": 44,
+          "top_class_names": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 31,
+            "buckets": [
+              {
+                "key": "Dresses",
+                "doc_count": 13
+              }
+            ]
+          }
+        },
+        {
+          "key": 20.0,
+          "doc_count": 10589,
+          "top_class_names": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 7488,
+            "buckets": [
+              {
+                "key": "Dresses",
+                "doc_count": 3101
+              }
+            ]
+          }
+        },
+        {
+          "key": 40.0,
+          "doc_count": 10075,
+          "top_class_names": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 7491,
+            "buckets": [
+              {
+                "key": "Dresses",
+                "doc_count": 2584
+              }
+            ]
+          }
+        },
+        {
+          "key": 60.0,
+          "doc_count": 2669,
+          "top_class_names": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 2051,
+            "buckets": [
+              {
+                "key": "Knits",
+                "doc_count": 618
+              }
+            ]
+          }
+        },
+        {
+          "key": 80.0,
+          "doc_count": 109,
+          "top_class_names": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 82,
+            "buckets": [
+              {
+                "key": "Dresses",
+                "doc_count": 27
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

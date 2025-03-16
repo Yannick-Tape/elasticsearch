@@ -1,0 +1,19 @@
+{
+  "size": 0,
+  "aggs": {
+    "age_buckets": {
+      "histogram": {
+        "field": "Age",
+        "interval": 20
+      },
+      "aggs": {
+        "top_class_names": {
+          "terms": {
+            "field": "Class Name.keyword",
+            "size": 1
+          }
+        }
+      }
+    }
+  }
+}

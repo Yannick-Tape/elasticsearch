@@ -1,0 +1,101 @@
+{
+  "size": 0,
+  "aggs": {
+    "missing_values": {
+      "filters": {
+        "filters": {
+          "missing_clothing_id": {
+            "bool": {
+              "must_not": {
+                "exists": {
+                  "field": "clothing_id"
+                }
+              }
+            }
+          },
+          "missing_age": {
+            "bool": {
+              "must_not": {
+                "exists": {
+                  "field": "age"
+                }
+              }
+            }
+          },
+          "missing_title": {
+            "bool": {
+              "must_not": {
+                "exists": {
+                  "field": "title"
+                }
+              }
+            }
+          },
+          "missing_review_text": {
+            "bool": {
+              "must_not": {
+                "exists": {
+                  "field": "review_text"
+                }
+              }
+            }
+          },
+          "missing_rating": {
+            "bool": {
+              "must_not": {
+                "exists": {
+                  "field": "rating"
+                }
+              }
+            }
+          },
+          "missing_recommended_ind": {
+            "bool": {
+              "must_not": {
+                "exists": {
+                  "field": "recommended_ind"
+                }
+              }
+            }
+          },
+          "missing_positive_feedback_count": {
+            "bool": {
+              "must_not": {
+                "exists": {
+                  "field": "positive_feedback_count"
+                }
+              }
+            }
+          },
+          "missing_division_name": {
+            "bool": {
+              "must_not": {
+                "exists": {
+                  "field": "division_name"
+                }
+              }
+            }
+          },
+          "missing_department_name": {
+            "bool": {
+              "must_not": {
+                "exists": {
+                  "field": "department_name"
+                }
+              }
+            }
+          },
+          "missing_class_name": {
+            "bool": {
+              "must_not": {
+                "exists": {
+                  "field": "class_name"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

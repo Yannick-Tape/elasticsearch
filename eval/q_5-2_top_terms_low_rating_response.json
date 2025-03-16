@@ -1,0 +1,66 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 842,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "top_terms_low_rating": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 811,
+      "buckets": [
+        {
+          "key": "#childsize. not sure where this went wrong but it's going back immediately. always wear a 0-2 in retailerpologist skirts, this size 0 runs at least two sizes too small. the material is beautiful, but if i got the size i needed i would be entirely swallowed by fabric. so disappointing.",
+          "doc_count": 1
+        },
+        {
+          "key": "1. i like a shorter jacket, but this one was poorly made and poorly fit.\n\n2. the sleeves were way too tight. i'm a size 10 or 12, and the large which would be a 14 had tight sleeves that wrinkled up my arms, and the hem of the sleeve turned inside out.\n\n3. i ordered both a medium (size 10) and a large (size 14) , and neither hung right. the m too tight, and the large too loose in the body and too tight in the sleeves.\n\n4. very polyester with lots of static.\n\n5. cute idea, but not very good in pe",
+          "doc_count": 1
+        },
+        {
+          "key": "1. this looks so cute on the model, doesn't it? i have no idea where you wear a suit with hot pants, but it looks cute.\n\n2. that said, keep in mind the model is probably 6 feet 10 inches tall. i'm 5 feet 6 inches tall, and this jacket came down to my knees. i'm not kidding. the 3/4 length sleeves were at my wrist, so more like 7/8 sleeves.\n\n3. i'm normally a size 12 in cartonnier jackets, but this only comes s, m or l. the medium is really a size 10, which was too tight across the shoulders and",
+          "doc_count": 1
+        },
+        {
+          "key": "3 tags - one quite huge (about 2'' by 3'') - very itchy. so i cut out the tags and they are sewn with some kind of hard poky plasticy thread - now even more itchy! i will have to wear these inside out.",
+          "doc_count": 1
+        },
+        {
+          "key": "3 tags sewn in, 2 small (about 1'' long) and 1 huge (about 2'' x 3''). very itchy so i cut them out. then the thread left behind was plasticy and even more itchy! how can you make an intimates item with such itchy tags? not comfortable at all! also - i love bralettes and wear them all the time including to work. i am a b cup. however, this one is so thin and flimsy that it gives no support even to a b cup - so for me this would only be a lounging bralette - if it wasn't so itchy!",
+          "doc_count": 1
+        },
+        {
+          "key": "A serious joke. i struggled with the buttons for a good 10 minutes and gave up after the 3rd button. i'm not sure what they were thinking.",
+          "doc_count": 1
+        },
+        {
+          "key": "A truly unwearable slip: scratchy fabric, bunchy skirt, teeny bodice. it feels like you are wearing wrapping paper--the foil kind.",
+          "doc_count": 1
+        },
+        {
+          "key": "Absolutely beautiful top, worn once...hand washed and that's all she wrote..ruined!! the black trim bled all over the top!! i tried everything you could imagine to get this back to normal! do not recommend!! :(",
+          "doc_count": 1
+        },
+        {
+          "key": "Absolutely loved this top but after i washed it the underside color ran at the stitching. it is all white on the outside but at the bottom hem it has a really cool 1\" lining in a mustard color. i did a cold water wash and flat to dry. i noticed around the stitching at the bottom the mustard color has bled through just at the area of the mustard color stitching. \n\ni am so disappointed b/c i loved this top.",
+          "doc_count": 1
+        },
+        {
+          "key": "After reading all the reviews and sizing down one size. i got my top size m, i usually wear m/l depending on the style. i'm 6 ft tall, 160 lb, i like my clothing loose but not as loose as this top. i should have gone to xxxxxs if such exists. no wonder there is such a low leap in price. it is a good quality though, and very nice pale peach color. no would not recommend, unless you wear 3xxxl",
+          "doc_count": 1
+        }
+      ]
+    }
+  }
+}

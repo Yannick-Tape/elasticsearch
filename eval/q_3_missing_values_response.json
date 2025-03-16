@@ -1,0 +1,55 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "missing_values": {
+      "meta": {},
+      "buckets": {
+        "missing_age": {
+          "doc_count": 23486
+        },
+        "missing_class_name": {
+          "doc_count": 23486
+        },
+        "missing_clothing_id": {
+          "doc_count": 23486
+        },
+        "missing_department_name": {
+          "doc_count": 23486
+        },
+        "missing_division_name": {
+          "doc_count": 23486
+        },
+        "missing_positive_feedback_count": {
+          "doc_count": 23486
+        },
+        "missing_rating": {
+          "doc_count": 23486
+        },
+        "missing_recommended_ind": {
+          "doc_count": 23486
+        },
+        "missing_review_text": {
+          "doc_count": 23486
+        },
+        "missing_title": {
+          "doc_count": 23486
+        }
+      }
+    }
+  }
+}

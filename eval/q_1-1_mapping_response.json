@@ -1,0 +1,58 @@
+{
+  "eval": {
+    "mappings": {
+      "properties": {
+        "Age": {
+          "type": "integer"
+        },
+        "Class Name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        },
+        "Clothing ID": {
+          "type": "keyword"
+        },
+        "Department Name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        },
+        "Division Name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        },
+        "Positive Feedback Count": {
+          "type": "integer"
+        },
+        "Rating": {
+          "type": "integer"
+        },
+        "Recommended IND": {
+          "type": "boolean"
+        },
+        "Review Text": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        },
+        "Title": {
+          "type": "text"
+        }
+      }
+    }
+  }
+}

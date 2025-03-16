@@ -1,0 +1,16 @@
+{
+  "size": 0,
+  "query": {
+    "term": {
+      "Rating": 1
+    }
+  },
+  "aggs": {
+    "top_terms_low_rating": {
+      "terms": {
+        "field": "Review Text.keyword",
+        "size": 10
+      }
+    }
+  }
+}

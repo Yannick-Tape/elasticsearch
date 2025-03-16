@@ -1,0 +1,36 @@
+{
+  "size": 0,
+  "aggs": {
+    "worst_products": {
+      "terms": {
+        "field": "Clothing ID",
+        "size": 10,
+        "order": {
+          "average_rating": "asc"
+        }
+      },
+      "aggs": {
+        "average_rating": {
+          "avg": {
+            "field": "Rating"
+          }
+        },
+        "review_count": {
+          "value_count": {
+            "field": "Review Text.keyword"
+          }
+        },
+        "recommended_count": {
+          "sum": {
+            "field": "Recommended IND"
+          }
+        },
+        "positive_feedback": {
+          "sum": {
+            "field": "Positive Feedback Count"
+          }
+        }
+      }
+    }
+  }
+}

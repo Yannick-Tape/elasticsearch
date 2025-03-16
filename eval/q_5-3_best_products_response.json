@@ -1,0 +1,196 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "top_products": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 17574,
+      "buckets": [
+        {
+          "key": "1078",
+          "doc_count": 1024,
+          "positive_feedback": {
+            "value": 2763.0
+          },
+          "review_count": {
+            "value": 987
+          },
+          "recommended_count": {
+            "value": 841.0,
+            "value_as_string": "true"
+          },
+          "average_rating": {
+            "value": 4.2041015625
+          }
+        },
+        {
+          "key": "862",
+          "doc_count": 806,
+          "positive_feedback": {
+            "value": 1940.0
+          },
+          "review_count": {
+            "value": 778
+          },
+          "recommended_count": {
+            "value": 661.0,
+            "value_as_string": "true"
+          },
+          "average_rating": {
+            "value": 4.200992555831266
+          }
+        },
+        {
+          "key": "1094",
+          "doc_count": 756,
+          "positive_feedback": {
+            "value": 2453.0
+          },
+          "review_count": {
+            "value": 735
+          },
+          "recommended_count": {
+            "value": 621.0,
+            "value_as_string": "true"
+          },
+          "average_rating": {
+            "value": 4.189153439153439
+          }
+        },
+        {
+          "key": "1081",
+          "doc_count": 582,
+          "positive_feedback": {
+            "value": 1823.0
+          },
+          "review_count": {
+            "value": 561
+          },
+          "recommended_count": {
+            "value": 494.0,
+            "value_as_string": "true"
+          },
+          "average_rating": {
+            "value": 4.281786941580756
+          }
+        },
+        {
+          "key": "872",
+          "doc_count": 545,
+          "positive_feedback": {
+            "value": 1171.0
+          },
+          "review_count": {
+            "value": 519
+          },
+          "recommended_count": {
+            "value": 478.0,
+            "value_as_string": "true"
+          },
+          "average_rating": {
+            "value": 4.38348623853211
+          }
+        },
+        {
+          "key": "829",
+          "doc_count": 527,
+          "positive_feedback": {
+            "value": 1332.0
+          },
+          "review_count": {
+            "value": 512
+          },
+          "recommended_count": {
+            "value": 436.0,
+            "value_as_string": "true"
+          },
+          "average_rating": {
+            "value": 4.193548387096774
+          }
+        },
+        {
+          "key": "1110",
+          "doc_count": 480,
+          "positive_feedback": {
+            "value": 2032.0
+          },
+          "review_count": {
+            "value": 471
+          },
+          "recommended_count": {
+            "value": 403.0,
+            "value_as_string": "true"
+          },
+          "average_rating": {
+            "value": 4.28125
+          }
+        },
+        {
+          "key": "868",
+          "doc_count": 430,
+          "positive_feedback": {
+            "value": 1142.0
+          },
+          "review_count": {
+            "value": 414
+          },
+          "recommended_count": {
+            "value": 325.0,
+            "value_as_string": "true"
+          },
+          "average_rating": {
+            "value": 3.9465116279069767
+          }
+        },
+        {
+          "key": "895",
+          "doc_count": 404,
+          "positive_feedback": {
+            "value": 800.0
+          },
+          "review_count": {
+            "value": 384
+          },
+          "recommended_count": {
+            "value": 341.0,
+            "value_as_string": "true"
+          },
+          "average_rating": {
+            "value": 4.2995049504950495
+          }
+        },
+        {
+          "key": "936",
+          "doc_count": 358,
+          "positive_feedback": {
+            "value": 931.0
+          },
+          "review_count": {
+            "value": 348
+          },
+          "recommended_count": {
+            "value": 294.0,
+            "value_as_string": "true"
+          },
+          "average_rating": {
+            "value": 4.326815642458101
+          }
+        }
+      ]
+    }
+  }
+}

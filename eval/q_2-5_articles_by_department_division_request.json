@@ -1,0 +1,26 @@
+{
+  "size": 0,
+  "aggs": {
+    "by_division": {
+      "terms": {
+        "field": "Division Name.keyword",
+        "size": 10
+      },
+      "aggs": {
+        "by_department": {
+          "terms": {
+            "field": "Department Name.keyword",
+            "size": 10
+          },
+          "aggs": {
+            "article_count": {
+              "cardinality": {
+                "field": "Clothing ID"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

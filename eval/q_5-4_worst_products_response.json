@@ -1,0 +1,196 @@
+{
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "worst_products": {
+      "doc_count_error_upper_bound": -1,
+      "sum_other_doc_count": 23476,
+      "buckets": [
+        {
+          "key": "1176",
+          "doc_count": 1,
+          "positive_feedback": {
+            "value": 4.0
+          },
+          "review_count": {
+            "value": 1
+          },
+          "recommended_count": {
+            "value": 0.0,
+            "value_as_string": "false"
+          },
+          "average_rating": {
+            "value": 1.0
+          }
+        },
+        {
+          "key": "118",
+          "doc_count": 1,
+          "positive_feedback": {
+            "value": 0.0
+          },
+          "review_count": {
+            "value": 1
+          },
+          "recommended_count": {
+            "value": 0.0,
+            "value_as_string": "false"
+          },
+          "average_rating": {
+            "value": 1.0
+          }
+        },
+        {
+          "key": "18",
+          "doc_count": 1,
+          "positive_feedback": {
+            "value": 0.0
+          },
+          "review_count": {
+            "value": 1
+          },
+          "recommended_count": {
+            "value": 0.0,
+            "value_as_string": "false"
+          },
+          "average_rating": {
+            "value": 1.0
+          }
+        },
+        {
+          "key": "219",
+          "doc_count": 1,
+          "positive_feedback": {
+            "value": 0.0
+          },
+          "review_count": {
+            "value": 1
+          },
+          "recommended_count": {
+            "value": 0.0,
+            "value_as_string": "false"
+          },
+          "average_rating": {
+            "value": 1.0
+          }
+        },
+        {
+          "key": "269",
+          "doc_count": 1,
+          "positive_feedback": {
+            "value": 1.0
+          },
+          "review_count": {
+            "value": 1
+          },
+          "recommended_count": {
+            "value": 0.0,
+            "value_as_string": "false"
+          },
+          "average_rating": {
+            "value": 1.0
+          }
+        },
+        {
+          "key": "273",
+          "doc_count": 1,
+          "positive_feedback": {
+            "value": 10.0
+          },
+          "review_count": {
+            "value": 1
+          },
+          "recommended_count": {
+            "value": 0.0,
+            "value_as_string": "false"
+          },
+          "average_rating": {
+            "value": 1.0
+          }
+        },
+        {
+          "key": "284",
+          "doc_count": 1,
+          "positive_feedback": {
+            "value": 0.0
+          },
+          "review_count": {
+            "value": 0
+          },
+          "recommended_count": {
+            "value": 0.0,
+            "value_as_string": "false"
+          },
+          "average_rating": {
+            "value": 1.0
+          }
+        },
+        {
+          "key": "285",
+          "doc_count": 1,
+          "positive_feedback": {
+            "value": 2.0
+          },
+          "review_count": {
+            "value": 1
+          },
+          "recommended_count": {
+            "value": 0.0,
+            "value_as_string": "false"
+          },
+          "average_rating": {
+            "value": 1.0
+          }
+        },
+        {
+          "key": "348",
+          "doc_count": 1,
+          "positive_feedback": {
+            "value": 6.0
+          },
+          "review_count": {
+            "value": 1
+          },
+          "recommended_count": {
+            "value": 0.0,
+            "value_as_string": "false"
+          },
+          "average_rating": {
+            "value": 1.0
+          }
+        },
+        {
+          "key": "369",
+          "doc_count": 1,
+          "positive_feedback": {
+            "value": 1.0
+          },
+          "review_count": {
+            "value": 1
+          },
+          "recommended_count": {
+            "value": 0.0,
+            "value_as_string": "false"
+          },
+          "average_rating": {
+            "value": 1.0
+          }
+        }
+      ]
+    }
+  }
+}

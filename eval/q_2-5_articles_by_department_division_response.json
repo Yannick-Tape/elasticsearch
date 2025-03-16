@@ -1,0 +1,157 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "by_division": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "General",
+          "doc_count": 13850,
+          "by_department": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Tops",
+                "doc_count": 6837,
+                "article_count": {
+                  "value": 148
+                }
+              },
+              {
+                "key": "Dresses",
+                "doc_count": 3730,
+                "article_count": {
+                  "value": 52
+                }
+              },
+              {
+                "key": "Bottoms",
+                "doc_count": 2542,
+                "article_count": {
+                  "value": 170
+                }
+              },
+              {
+                "key": "Jackets",
+                "doc_count": 645,
+                "article_count": {
+                  "value": 49
+                }
+              },
+              {
+                "key": "Trend",
+                "doc_count": 96,
+                "article_count": {
+                  "value": 35
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "General Petite",
+          "doc_count": 8120,
+          "by_department": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Tops",
+                "doc_count": 3631,
+                "article_count": {
+                  "value": 99
+                }
+              },
+              {
+                "key": "Dresses",
+                "doc_count": 2589,
+                "article_count": {
+                  "value": 46
+                }
+              },
+              {
+                "key": "Bottoms",
+                "doc_count": 1257,
+                "article_count": {
+                  "value": 73
+                }
+              },
+              {
+                "key": "Jackets",
+                "doc_count": 387,
+                "article_count": {
+                  "value": 34
+                }
+              },
+              {
+                "key": "Intimate",
+                "doc_count": 233,
+                "article_count": {
+                  "value": 49
+                }
+              },
+              {
+                "key": "Trend",
+                "doc_count": 23,
+                "article_count": {
+                  "value": 7
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Initmates",
+          "doc_count": 1502,
+          "by_department": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Intimate",
+                "doc_count": 1502,
+                "article_count": {
+                  "value": 633
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Unknown",
+          "doc_count": 14,
+          "by_department": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Unknown",
+                "doc_count": 14,
+                "article_count": {
+                  "value": 7
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
